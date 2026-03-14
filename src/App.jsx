@@ -13,7 +13,7 @@ const KashmirVodka = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const parallaxSpeed = scrollY * 0.5;
+  const parallaxSpeed = scrollY * 0.2;
 
   return (
     <div className="bg-black text-white overflow-x-hidden">
@@ -549,4 +549,4 @@ const KashmirVodka = () => {
   );
 };
 
-export default KashmirVodka;
+export default KashmirVodka;0
