@@ -13,7 +13,7 @@ const KashmirVodka = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const parallaxSpeed = scrollY * 0.2;
+  const parallaxSpeed = scrollY * 0.5;
 
   return (
     <div className="bg-black text-white overflow-x-hidden">
@@ -126,14 +126,14 @@ const KashmirVodka = () => {
 
       {/* Heritage Section */}
       <section id="heritage" className="relative py-32 px-6">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
             <div className="text-amber-400 text-xs tracking-[0.3em] mb-4">
               HERITAGE
             </div>
             <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Forged in the
-              <span className="block text-amber-400">Himalayas</span>
+              <span className="block text-amber-390">Himalayas</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
               Kashmir Vodka is more than a spirit—it's a testament to purity,
