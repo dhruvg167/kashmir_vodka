@@ -120,7 +120,7 @@ const KashmirVodka = () => {
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="text-amber-400" size={32} />
+          <ChevronDown className="text-amber-400" size={31} />
         </div>
       </section>
 
